@@ -4,10 +4,13 @@ This repository contains the anonymzed raw data and code to reproduce the analys
 
 If you have any questions, contact the corresponding author: 
 
-> Nicolas Roever, M.Sc. //
-> University of Cologne, Germany //
-> Email: nicolas.roever@wiso.uni-koeln.de //
-> WWW: [https://nicolasroever.com](https://nicolasroever.com) //
+> Nicolas Roever, M.Sc.
+> 
+> University of Cologne, Germany
+> 
+> Email: nicolas.roever@wiso.uni-koeln.de
+> 
+> WWW: [https://nicolasroever.com](https://nicolasroever.com) 
 
 ## Run
 
