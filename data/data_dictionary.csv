@@ -1,0 +1,130 @@
+file,variable,description,units_or_coding
+participants.csv,replication_id,Release-only row number after random shuffling; no private-ID mapping included,integer
+participants.csv,age_w1,Age at screening,years
+participants.csv,gad7_answers_w1,Seven GAD-7 screening item scores,JSON array; each 0-3
+participants.csv,gad7_score_w1,Recorded total GAD-7 screening score; checked against items,0-21
+participants.csv,therapy_history_w1,Prior psychological therapy at screening,never / beforeyear / currently
+participants.csv,ai_efficacy_estimate_w1,Baseline estimate of AI accuracy,0-100
+participants.csv,ai_privacy_level_w1,Privacy concern discussing personal experiences with AI,1-5; higher = more concern
+participants.csv,ai_emotional_comfort_w1,Comfort using AI for emotional support,0-100
+participants.csv,gender_w1,Gender reported at screening,category
+participants.csv,research_arm,Backend assigned arm,sonia / webapp
+participants.csv,signed_up,Recorded signup in assigned application,boolean
+participants.csv,efficacy_human_thera_1_w2,Perceived efficacy of human therapy at baseline,0-100
+participants.csv,wtp_human_therapy_1_w2,Willingness to pay for human therapy,USD
+participants.csv,medication_w2,Past or current psychiatric medication use,labelled category
+participants.csv,income__w2,Annual household income interval; double underscore retains source item name,labelled USD interval
+participants.csv,employment__w2,Employment status at baseline; double underscore retains source item name,labelled category
+participants.csv,safety_sonia_binary_w4,Whether Sonia felt safe relative to traditional AI chatbots,Yes / No
+participants.csv,sonia_treatment,Randomized arm in original analysis sample,1 = Sonia; 0 = control
+participants.csv,phq_8_1_w2,PHQ-8 item; baseline (w2) or week-2 follow-up (w4),labelled response mapped to 0-3
+participants.csv,phq_8_2_w2,PHQ-8 item; baseline (w2) or week-2 follow-up (w4),labelled response mapped to 0-3
+participants.csv,phq_8_3_w2,PHQ-8 item; baseline (w2) or week-2 follow-up (w4),labelled response mapped to 0-3
+participants.csv,phq_8_4_w2,PHQ-8 item; baseline (w2) or week-2 follow-up (w4),labelled response mapped to 0-3
+participants.csv,phq_8_5_w2,PHQ-8 item; baseline (w2) or week-2 follow-up (w4),labelled response mapped to 0-3
+participants.csv,phq_8_6_w2,PHQ-8 item; baseline (w2) or week-2 follow-up (w4),labelled response mapped to 0-3
+participants.csv,phq_8_7_w2,PHQ-8 item; baseline (w2) or week-2 follow-up (w4),labelled response mapped to 0-3
+participants.csv,phq_8_8_w2,PHQ-8 item; baseline (w2) or week-2 follow-up (w4),labelled response mapped to 0-3
+participants.csv,Q1_1_w4,GAD-7 item at week-2 follow-up,labelled response mapped to 0-3
+participants.csv,Q1_2_w4,GAD-7 item at week-2 follow-up,labelled response mapped to 0-3
+participants.csv,Q1_3_w4,GAD-7 item at week-2 follow-up,labelled response mapped to 0-3
+participants.csv,Q1_4_w4,GAD-7 item at week-2 follow-up,labelled response mapped to 0-3
+participants.csv,Q1_5_w4,GAD-7 item at week-2 follow-up,labelled response mapped to 0-3
+participants.csv,Q1_6_w4,GAD-7 item at week-2 follow-up,labelled response mapped to 0-3
+participants.csv,Q1_7_w4,GAD-7 item at week-2 follow-up,labelled response mapped to 0-3
+participants.csv,Q3_1_w4,PHQ-8 item; baseline (w2) or week-2 follow-up (w4),labelled response mapped to 0-3
+participants.csv,Q3_2_w4,PHQ-8 item; baseline (w2) or week-2 follow-up (w4),labelled response mapped to 0-3
+participants.csv,Q3_3_w4,PHQ-8 item; baseline (w2) or week-2 follow-up (w4),labelled response mapped to 0-3
+participants.csv,Q3_4_w4,PHQ-8 item; baseline (w2) or week-2 follow-up (w4),labelled response mapped to 0-3
+participants.csv,Q3_5_w4,PHQ-8 item; baseline (w2) or week-2 follow-up (w4),labelled response mapped to 0-3
+participants.csv,Q3_6_w4,PHQ-8 item; baseline (w2) or week-2 follow-up (w4),labelled response mapped to 0-3
+participants.csv,Q3_7_w4,PHQ-8 item; baseline (w2) or week-2 follow-up (w4),labelled response mapped to 0-3
+participants.csv,Q3_8_w4,PHQ-8 item; baseline (w2) or week-2 follow-up (w4),labelled response mapped to 0-3
+participants.csv,ucla_lonely_1_w2,Baseline UCLA-3 loneliness item,Hardly ever = 1; Some of the time = 2; Often = 3
+participants.csv,ucla_lonely_2_w2,Baseline UCLA-3 loneliness item,Hardly ever = 1; Some of the time = 2; Often = 3
+participants.csv,ucla_lonely_3_w2,Baseline UCLA-3 loneliness item,Hardly ever = 1; Some of the time = 2; Often = 3
+participants.csv,number_sessions_day_-1,Sonia sessions: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,number_sessions_day_0,Sonia sessions: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,number_sessions_day_1,Sonia sessions: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,number_sessions_day_2,Sonia sessions: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,number_sessions_day_3,Sonia sessions: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,number_sessions_day_4,Sonia sessions: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,number_sessions_day_5,Sonia sessions: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,number_sessions_day_6,Sonia sessions: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,number_sessions_day_7,Sonia sessions: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,number_sessions_day_8,Sonia sessions: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,number_sessions_day_9,Sonia sessions: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,number_sessions_day_10,Sonia sessions: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,number_sessions_day_11,Sonia sessions: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,number_sessions_day_12,Sonia sessions: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,number_sessions_day_13,Sonia sessions: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,duration_day_-1,Sonia conversation time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,duration_day_0,Sonia conversation time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,duration_day_1,Sonia conversation time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,duration_day_2,Sonia conversation time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,duration_day_3,Sonia conversation time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,duration_day_4,Sonia conversation time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,duration_day_5,Sonia conversation time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,duration_day_6,Sonia conversation time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,duration_day_7,Sonia conversation time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,duration_day_8,Sonia conversation time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,duration_day_9,Sonia conversation time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,duration_day_10,Sonia conversation time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,duration_day_11,Sonia conversation time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,duration_day_12,Sonia conversation time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,duration_day_13,Sonia conversation time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,webapp_sessions_day_-1,Control web-app visits: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,webapp_sessions_day_0,Control web-app visits: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,webapp_sessions_day_1,Control web-app visits: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,webapp_sessions_day_2,Control web-app visits: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,webapp_sessions_day_3,Control web-app visits: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,webapp_sessions_day_4,Control web-app visits: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,webapp_sessions_day_5,Control web-app visits: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,webapp_sessions_day_6,Control web-app visits: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,webapp_sessions_day_7,Control web-app visits: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,webapp_sessions_day_8,Control web-app visits: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,webapp_sessions_day_9,Control web-app visits: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,webapp_sessions_day_10,Control web-app visits: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,webapp_sessions_day_11,Control web-app visits: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,webapp_sessions_day_12,Control web-app visits: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,webapp_sessions_day_13,Control web-app visits: day relative to UTC randomization date; missing usage is zero,count
+participants.csv,webapp_seconds_day_-1,Control web-app time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,webapp_seconds_day_0,Control web-app time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,webapp_seconds_day_1,Control web-app time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,webapp_seconds_day_2,Control web-app time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,webapp_seconds_day_3,Control web-app time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,webapp_seconds_day_4,Control web-app time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,webapp_seconds_day_5,Control web-app time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,webapp_seconds_day_6,Control web-app time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,webapp_seconds_day_7,Control web-app time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,webapp_seconds_day_8,Control web-app time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,webapp_seconds_day_9,Control web-app time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,webapp_seconds_day_10,Control web-app time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,webapp_seconds_day_11,Control web-app time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,webapp_seconds_day_12,Control web-app time: day relative to UTC randomization date; missing usage is zero,seconds
+participants.csv,webapp_seconds_day_13,Control web-app time: day relative to UTC randomization date; missing usage is zero,seconds
+safety_concern_categories.csv,category,Manual coding of safety concerns without respondent links,privacy / uncertainty / insufficient_knowledge
+safety_concern_categories.csv,count,Number of respondents in category,count
+screening.csv,age_w1,Age at screening,years
+screening.csv,ai_privacy_level_w1,Privacy concern discussing personal experiences with AI,1-5; higher = more concern
+screening.csv,ai_emotional_comfort_w1,Comfort using AI for emotional support,0-100
+screening.csv,therapy_history_w1,Prior psychological therapy at screening,never / beforeyear / currently
+screening.csv,gad7_score_w1,Recorded total GAD-7 screening score; checked against items,0-21
+screening.csv,gad7_answers_w1,Seven GAD-7 screening item scores,JSON array; each 0-3
+screening.csv,device_type_w1,Primary device reported at screening,category
+screening.csv,us_resident_w1,US residency reported at screening,boolean
+screening.csv,cal_scheduled,Scheduled a phone screening call,boolean
+screening.csv,phone_screener_accepted_w1,Passed phone screening and received a baseline invitation,boolean
+published_benchmarks.csv,cohort,Outcome panel,anxiety / depression
+published_benchmarks.csv,study,Published study author label,text
+published_benchmarks.csv,year,Publication year,year
+published_benchmarks.csv,sample_n,Total study sample size,count
+published_benchmarks.csv,outcome,Outcome measure,text
+published_benchmarks.csv,typ,Study design,text
+published_benchmarks.csv,g,Published standardized effect when supplied,standard deviations
+published_benchmarks.csv,ci_low,Lower 95% confidence limit,standard deviations
+published_benchmarks.csv,ci_high,Upper 95% confidence limit,standard deviations
+published_benchmarks.csv,d,Cohen's d when converted to Hedges g,standard deviations
+published_benchmarks.csv,n1,Treatment sample used in Hedges correction,count
+published_benchmarks.csv,n2,Control sample used in Hedges correction,count
+published_benchmarks.csv,note,Brief study description,text

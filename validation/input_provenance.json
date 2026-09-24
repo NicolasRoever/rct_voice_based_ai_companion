@@ -1,0 +1,24 @@
+{
+  "source_task": "src/sonia_project/waitlist_trial/overall_analysis/task_create_public_data.py::task_anonymize_medicine_data",
+  "source_export": "npj_digital_medicine_revision_raw.csv",
+  "source_export_sha256": "855bdcd48ba5d963ad0428550267d2d2d39c1bc77e1bfe43cd51d14f3c48c8d5",
+  "rows": 400,
+  "columns": 104,
+  "randomized": 400,
+  "screening_rows": 10490,
+  "screening_columns": 10,
+  "participant_file_sha256": "9f088d8fbc4f48ac4d2f2b2d9cc1b77db142329ae50943895cc3b5c2f5ecca78",
+  "files": {
+    "participants.csv": "9f088d8fbc4f48ac4d2f2b2d9cc1b77db142329ae50943895cc3b5c2f5ecca78",
+    "screening.csv": "925c1f8a675ca137dcfe9fd6eb82617d07646258829932b6e2e79fe18c44b5db",
+    "safety_concern_categories.csv": "210289455337638d4fc11e9317dfbd5ad58c4abf125fd1a7ca767cfcd86b1fe4"
+  },
+  "changes": [
+    "Baseline UCLA-3 items are selected by the original survey-cleaning rules.",
+    "The first-400 sample is verified before dates and survey timing fields are removed.",
+    "All 10,490 screeners are retained without IDs or dates; trial participants receive release-only IDs.",
+    "Relative-day usage is verified against each participant's original weekly totals.",
+    "Manually coded survey concerns are released as unlinked category counts.",
+    "Public tables are copied unchanged into the replication package; scoring and all analyses run there."
+  ]
+}

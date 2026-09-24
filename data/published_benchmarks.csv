@@ -1,0 +1,12 @@
+cohort,study,year,sample_n,outcome,typ,g,ci_low,ci_high,d,n1,n2,note
+anxiety,Carl et al.,2020,256,GAD-7,RCT,0.96,0.6,1.31,,,,Daylight digital CBT
+anxiety,Zhong et al.,2024,3477,Anxiety (GAD-like),Meta-analysis,0.19,0.09,0.29,,,,AI chatbots pooled (18 RCTs)
+anxiety,Li et al.,2023,826,Anxiety,Meta-analysis,0.65,-0.46,1.77,,,,AI conversational agents pooled
+anxiety,Heinz et al.,2025,116,GAD-Q-IV,RCT,0.84,0.382,1.298,,,,Therabot text-based CBT
+anxiety,Shreekumar and Vautrey,2024,2384,"Index (PHQ-8, GAD-7, PSS-10)",RCT,0.38,0.31,0.45,,,,Headspace App
+depression,Carl et al.,2020,256,PHQ-9,RCT,0.41,0.18,0.64,,,128,Daylight digital CBT
+depression,Fitzpatrick et al.,2017,70,PHQ-9,RCT,,,,0.44,34,36,Woebot chatbot
+depression,Heinz et al.,2025,142,PHQ-9,RCT,0.845,0.409,1.282,,,,Therabot text-based CBT
+depression,Li et al.,2023,921,Depression,Meta-analysis,0.64,0.17,1.12,,,,AI conversational agents pooled
+depression,Zhong et al.,2024,3477,Depression (PHQ-like),Meta-analysis,0.26,0.17,0.34,,,,AI chatbots pooled (18 RCTs)
+depression,Shreekumar and Vautrey,2024,2384,"Index (PHQ-8, GAD-7, PSS-10)",RCT,0.38,0.31,0.45,,,,Headspace App

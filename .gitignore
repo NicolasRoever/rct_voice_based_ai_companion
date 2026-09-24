@@ -1,0 +1,13 @@
+.env
+.env.*
+.pixi/
+.cache/
+.pytask/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.pyc
+*.egg-info/
+bld/
+.DS_Store
+

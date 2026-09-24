@@ -1,0 +1,22 @@
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}l*{8}{l}@{}}
+\toprule
+& \multicolumn{2}{l}{Baseline}
+& \multicolumn{2}{l}{Week 2 follow-up}
+& \multicolumn{2}{l}{\shortstack[l]{Absolute reduction\\(points)}}
+& \multicolumn{2}{l}{\shortstack[l]{Adjusted difference\\Treatment group\\vs. control group}}\\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(l){8-9}
+& \shortstack[l]{Control\\group} & \shortstack[l]{Treatment\\group} & \shortstack[l]{Control\\group} & \shortstack[l]{Treatment\\group} & \shortstack[l]{Control\\group} & \shortstack[l]{Treatment\\group} & Points & SMD\\
+\midrule
+GAD-7 & \roever{gad7_base_ctrl}{} & \roever{gad7_base_treat}{} & \roever{gad7_2wk_ctrl}{} & \roever{gad7_2wk_treat}{} & \roever{gad7_reduction_ctrl}{} & \roever{gad7_reduction_treat}{} & \roever{main_gad7_points_effect_w4}{} & \textbf{\roever{main_gad7_std_effect_w4}{}}\\
+ & (\roever{gad7_base_ctrl_sd}{}) & (\roever{gad7_base_treat_sd}{}) & (\roever{gad7_2wk_ctrl_sd}{}) & (\roever{gad7_2wk_treat_sd}{}) &  &  & [\roever{main_gad7_points_95ci_lower_w4}{}, \roever{main_gad7_points_95ci_upper_w4}{}] & [\roever{main_gad7_std_95ci_lower_w4}{}, \roever{main_gad7_std_95ci_upper_w4}{}]\\
+\addlinespace[0.75em]
+PHQ-8 & \roever{phq8_base_ctrl}{} & \roever{phq8_base_treat}{} & \roever{phq8_2wk_ctrl}{} & \roever{phq8_2wk_treat}{} & \roever{phq8_reduction_ctrl}{} & \roever{phq8_reduction_treat}{} & \roever{main_phq8_points_effect_w4}{} & \roever{main_phq8_std_effect_w4}{}\\
+ & (\roever{phq8_base_ctrl_sd}{}) & (\roever{phq8_base_treat_sd}{}) & (\roever{phq8_2wk_ctrl_sd}{}) & (\roever{phq8_2wk_treat_sd}{}) &  &  & [\roever{main_phq8_points_95ci_lower_w4}{}, \roever{main_phq8_points_95ci_upper_w4}{}] & [\roever{main_phq8_std_95ci_lower_w4}{}, \roever{main_phq8_std_95ci_upper_w4}{}]\\
+\addlinespace[0.5em]
+$N$ & \roever{table_baseline_ctrl_n}{} & \roever{table_baseline_treat_n}{} & \roever{table_followup_ctrl_n}{} & \roever{table_followup_treat_n}{} & \roever{table_followup_ctrl_n}{} & \roever{table_followup_treat_n}{} & \roever{table_ancova_n}{} & \roever{table_ancova_n}{}\\
+\bottomrule
+\end{tabular}
+\endgroup

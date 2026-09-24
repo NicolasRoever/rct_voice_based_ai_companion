@@ -1,0 +1,30 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{@{\extracolsep{2pt}}l*{6}{c}@{}}
+\hline\hline
+& \multicolumn{6}{c}{Dependent variable: Standardised GAD-7 score at the week 2 follow-up} \\
+\cline{2-7}
+ & (1) & (2) & (3) & (4) & (5) & (6) \\
+\hline
+Treatment & -0.63\sym{***} & -0.66\sym{***} & -0.63\sym{***} & -0.64\sym{***} & -0.63\sym{***} & -0.68\sym{***} \\
+ & (0.08) & (0.08) & (0.08) & (0.08) & (0.08) & (0.08) \\
+WTP Human Therapy / Income \\ (baseline survey) &  & 10.41 &  &  &  &  \\
+ &  & (8.41) &  &  &  &  \\
+AI Accuracy Estimate (screener survey) &  &  & -0.00 &  &  &  \\
+ &  &  & (0.00) &  &  &  \\
+Comfort with AI \\ Emotional Support (screener survey) &  &  &  & -0.00 &  &  \\
+ &  &  &  & (0.00) &  &  \\
+AI Privacy Concern (screener survey) &  &  &  &  & 0.06 &  \\
+ &  &  &  &  & (0.05) &  \\
+Ever Taken Medication (baseline survey) &  &  &  &  &  & 0.12 \\
+ &  &  &  &  &  & (0.11) \\
+Household Income (baseline survey) &  &  &  &  &  & -0.00\sym{**} \\
+ &  &  &  &  &  & (0.00) \\
+Baseline Controls & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
+
+\hline
+N & 390 & 382 & 390 & 390 & 390 & 382 \\
+Adj. R\sym{2} & 0.22 & 0.23 & 0.22 & 0.22 & 0.22 & 0.24 \\
+\hline\hline
+\end{tabular}
+}

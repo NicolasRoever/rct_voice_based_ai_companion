@@ -1,0 +1,820 @@
+[
+  {
+    "source": "Main text",
+    "key": "main_gad7_std_effect_w4",
+    "value": "-0.63"
+  },
+  {
+    "source": "Main text",
+    "key": "main_gad7_points_effect_w4",
+    "value": "-3.52"
+  },
+  {
+    "source": "Main text",
+    "key": "prereg_n_total",
+    "value": "400"
+  },
+  {
+    "source": "Main text",
+    "key": "prereg_n_per_arm",
+    "value": "200"
+  },
+  {
+    "source": "Main text",
+    "key": "prereg_target_smd",
+    "value": "0.30"
+  },
+  {
+    "source": "Main text",
+    "key": "prereg_alpha",
+    "value": "0.05"
+  },
+  {
+    "source": "Main text",
+    "key": "prereg_attrition_assumed",
+    "value": "5"
+  },
+  {
+    "source": "Main text",
+    "key": "prereg_power",
+    "value": "83"
+  },
+  {
+    "source": "Main text",
+    "key": "prereg_power_ancova",
+    "value": "88"
+  },
+  {
+    "source": "Main text",
+    "key": "prereg_rho_assumed",
+    "value": "0.40"
+  },
+  {
+    "source": "Main text",
+    "key": "wave1_total",
+    "value": "10,490"
+  },
+  {
+    "source": "Main text",
+    "key": "call_scheduled",
+    "value": "893"
+  },
+  {
+    "source": "Main text",
+    "key": "attrition_wave_4_perc",
+    "value": "2.5"
+  },
+  {
+    "source": "Main text",
+    "key": "attrition_wave_4_n",
+    "value": "10"
+  },
+  {
+    "source": "Main text",
+    "key": "main_gad7_std_effect_w4",
+    "value": "-0.63"
+  },
+  {
+    "source": "Main text",
+    "key": "main_gad7_std_95ci_lower_w4",
+    "value": "-0.80"
+  },
+  {
+    "source": "Main text",
+    "key": "main_gad7_std_95ci_upper_w4",
+    "value": "-0.47"
+  },
+  {
+    "source": "Main text",
+    "key": "main_gad7_points_effect_w4",
+    "value": "-3.52"
+  },
+  {
+    "source": "Main text",
+    "key": "main_gad7_points_95ci_lower_w4",
+    "value": "-4.42"
+  },
+  {
+    "source": "Main text",
+    "key": "main_gad7_points_95ci_upper_w4",
+    "value": "-2.62"
+  },
+  {
+    "source": "Main text",
+    "key": "gad_sub10_trt",
+    "value": "63.2\\% (122/193)"
+  },
+  {
+    "source": "Main text",
+    "key": "gad_sub10_ctrl",
+    "value": "31.5\\% (62/197)"
+  },
+  {
+    "source": "Main text",
+    "key": "gad_sub10_arr",
+    "value": "31.7"
+  },
+  {
+    "source": "Main text",
+    "key": "median_sessions_w1",
+    "value": "4.0"
+  },
+  {
+    "source": "Main text",
+    "key": "sd_sessions_w1",
+    "value": "4.7"
+  },
+  {
+    "source": "Main text",
+    "key": "median_minutes_sonia_w1",
+    "value": "38.3"
+  },
+  {
+    "source": "Main text",
+    "key": "sd_minutes_sonia_w1",
+    "value": "67.9"
+  },
+  {
+    "source": "Main text",
+    "key": "median_visits_webapp_w1",
+    "value": "2.0"
+  },
+  {
+    "source": "Main text",
+    "key": "sd_visits_webapp_w1",
+    "value": "1.9"
+  },
+  {
+    "source": "Main text",
+    "key": "median_minutes_webapp_w1",
+    "value": "1.1"
+  },
+  {
+    "source": "Main text",
+    "key": "sd_minutes_webapp_w1",
+    "value": "58.0"
+  },
+  {
+    "source": "Main text",
+    "key": "median_sessions_w2",
+    "value": "3.0"
+  },
+  {
+    "source": "Main text",
+    "key": "sd_sessions_w2",
+    "value": "3.9"
+  },
+  {
+    "source": "Main text",
+    "key": "median_minutes_sonia_w2",
+    "value": "22.1"
+  },
+  {
+    "source": "Main text",
+    "key": "sd_minutes_sonia_w2",
+    "value": "62.0"
+  },
+  {
+    "source": "Main text",
+    "key": "median_visits_webapp_w2",
+    "value": "0.0"
+  },
+  {
+    "source": "Main text",
+    "key": "sd_visits_webapp_w2",
+    "value": "0.6"
+  },
+  {
+    "source": "Main text",
+    "key": "median_minutes_webapp_w2",
+    "value": "0.0"
+  },
+  {
+    "source": "Main text",
+    "key": "sd_minutes_webapp_w2",
+    "value": "1.7"
+  },
+  {
+    "source": "Main text",
+    "key": "number_no_concerns_w4",
+    "value": "188"
+  },
+  {
+    "source": "Main text",
+    "key": "fraction_no_concerns_w4",
+    "value": "97"
+  },
+  {
+    "source": "Main text",
+    "key": "number_concerns_w4",
+    "value": "5"
+  },
+  {
+    "source": "Main text",
+    "key": "fraction_concerns_w4",
+    "value": "3"
+  },
+  {
+    "source": "Main text",
+    "key": "pct_any_worse_gad7_ai",
+    "value": "4.1"
+  },
+  {
+    "source": "Main text",
+    "key": "pct_any_worse_phq8_ai",
+    "value": "20.2"
+  },
+  {
+    "source": "Main text",
+    "key": "pct_worse_gad7_ai",
+    "value": "1.0"
+  },
+  {
+    "source": "Main text",
+    "key": "pct_worse_phq8_ai",
+    "value": "6.7"
+  },
+  {
+    "source": "Main text",
+    "key": "pct_worse_gad7_control",
+    "value": "5.6"
+  },
+  {
+    "source": "Main text",
+    "key": "pct_worse_phq8_control",
+    "value": "14.7"
+  },
+  {
+    "source": "Main text",
+    "key": "pval_worse_gad7",
+    "value": "0.01"
+  },
+  {
+    "source": "Main text",
+    "key": "pval_worse_phq8",
+    "value": "0.01"
+  },
+  {
+    "source": "Main text",
+    "key": "main_gad7_points_effect_w4",
+    "value": "-3.52"
+  },
+  {
+    "source": "Main text",
+    "key": "main_gad7_std_effect_w4",
+    "value": "-0.63"
+  },
+  {
+    "source": "Main text",
+    "key": "main_gad7_std_95ci_lower_w4",
+    "value": "-0.80"
+  },
+  {
+    "source": "Main text",
+    "key": "main_gad7_std_95ci_upper_w4",
+    "value": "-0.47"
+  },
+  {
+    "source": "Main text",
+    "key": "main_phq8_points_effect_w4",
+    "value": "-3.03"
+  },
+  {
+    "source": "Main text",
+    "key": "main_phq8_std_effect_w4",
+    "value": "-0.67"
+  },
+  {
+    "source": "Main text",
+    "key": "main_phq8_std_95ci_lower_w4",
+    "value": "-0.88"
+  },
+  {
+    "source": "Main text",
+    "key": "main_phq8_std_95ci_upper_w4",
+    "value": "-0.46"
+  },
+  {
+    "source": "Main text",
+    "key": "fraction_no_concerns_w4",
+    "value": "97"
+  },
+  {
+    "source": "Table 1",
+    "key": "gad7_base_ctrl",
+    "value": "16.1"
+  },
+  {
+    "source": "Table 1",
+    "key": "gad7_base_treat",
+    "value": "15.9"
+  },
+  {
+    "source": "Table 1",
+    "key": "gad7_2wk_ctrl",
+    "value": "12.6"
+  },
+  {
+    "source": "Table 1",
+    "key": "gad7_2wk_treat",
+    "value": "8.9"
+  },
+  {
+    "source": "Table 1",
+    "key": "gad7_reduction_ctrl",
+    "value": "3.5"
+  },
+  {
+    "source": "Table 1",
+    "key": "gad7_reduction_treat",
+    "value": "6.9"
+  },
+  {
+    "source": "Table 1",
+    "key": "main_gad7_points_effect_w4",
+    "value": "-3.52"
+  },
+  {
+    "source": "Table 1",
+    "key": "main_gad7_std_effect_w4",
+    "value": "-0.63"
+  },
+  {
+    "source": "Table 1",
+    "key": "gad7_base_ctrl_sd",
+    "value": "2.2"
+  },
+  {
+    "source": "Table 1",
+    "key": "gad7_base_treat_sd",
+    "value": "2.2"
+  },
+  {
+    "source": "Table 1",
+    "key": "gad7_2wk_ctrl_sd",
+    "value": "4.8"
+  },
+  {
+    "source": "Table 1",
+    "key": "gad7_2wk_treat_sd",
+    "value": "4.6"
+  },
+  {
+    "source": "Table 1",
+    "key": "main_gad7_points_95ci_lower_w4",
+    "value": "-4.42"
+  },
+  {
+    "source": "Table 1",
+    "key": "main_gad7_points_95ci_upper_w4",
+    "value": "-2.62"
+  },
+  {
+    "source": "Table 1",
+    "key": "main_gad7_std_95ci_lower_w4",
+    "value": "-0.80"
+  },
+  {
+    "source": "Table 1",
+    "key": "main_gad7_std_95ci_upper_w4",
+    "value": "-0.47"
+  },
+  {
+    "source": "Table 1",
+    "key": "phq8_base_ctrl",
+    "value": "14.5"
+  },
+  {
+    "source": "Table 1",
+    "key": "phq8_base_treat",
+    "value": "14.1"
+  },
+  {
+    "source": "Table 1",
+    "key": "phq8_2wk_ctrl",
+    "value": "13.3"
+  },
+  {
+    "source": "Table 1",
+    "key": "phq8_2wk_treat",
+    "value": "9.9"
+  },
+  {
+    "source": "Table 1",
+    "key": "phq8_reduction_ctrl",
+    "value": "1.3"
+  },
+  {
+    "source": "Table 1",
+    "key": "phq8_reduction_treat",
+    "value": "4.1"
+  },
+  {
+    "source": "Table 1",
+    "key": "main_phq8_points_effect_w4",
+    "value": "-3.03"
+  },
+  {
+    "source": "Table 1",
+    "key": "main_phq8_std_effect_w4",
+    "value": "-0.67"
+  },
+  {
+    "source": "Table 1",
+    "key": "phq8_base_ctrl_sd",
+    "value": "4.8"
+  },
+  {
+    "source": "Table 1",
+    "key": "phq8_base_treat_sd",
+    "value": "4.2"
+  },
+  {
+    "source": "Table 1",
+    "key": "phq8_2wk_ctrl_sd",
+    "value": "5.8"
+  },
+  {
+    "source": "Table 1",
+    "key": "phq8_2wk_treat_sd",
+    "value": "5.5"
+  },
+  {
+    "source": "Table 1",
+    "key": "main_phq8_points_95ci_lower_w4",
+    "value": "-3.99"
+  },
+  {
+    "source": "Table 1",
+    "key": "main_phq8_points_95ci_upper_w4",
+    "value": "-2.07"
+  },
+  {
+    "source": "Table 1",
+    "key": "main_phq8_std_95ci_lower_w4",
+    "value": "-0.88"
+  },
+  {
+    "source": "Table 1",
+    "key": "main_phq8_std_95ci_upper_w4",
+    "value": "-0.46"
+  },
+  {
+    "source": "Table 2",
+    "key": "gad_case_ctrl",
+    "value": "100.0\\% (200/200)"
+  },
+  {
+    "source": "Table 2",
+    "key": "gad_case_trt",
+    "value": "100.0\\% (200/200)"
+  },
+  {
+    "source": "Table 2",
+    "key": "gad_case_rd",
+    "value": "0.0"
+  },
+  {
+    "source": "Table 2",
+    "key": "gad_case_rd_ci",
+    "value": "---"
+  },
+  {
+    "source": "Table 2",
+    "key": "gad_sub10_ctrl",
+    "value": "31.5\\% (62/197)"
+  },
+  {
+    "source": "Table 2",
+    "key": "gad_sub10_trt",
+    "value": "63.2\\% (122/193)"
+  },
+  {
+    "source": "Table 2",
+    "key": "gad_sub10_rd",
+    "value": "31.7"
+  },
+  {
+    "source": "Table 2",
+    "key": "gad_sub10_rd_ci",
+    "value": "[22.0, 40.6]"
+  },
+  {
+    "source": "Table 2",
+    "key": "gad_resp_ctrl",
+    "value": "21.3\\% (42/197)"
+  },
+  {
+    "source": "Table 2",
+    "key": "gad_resp_trt",
+    "value": "50.3\\% (97/193)"
+  },
+  {
+    "source": "Table 2",
+    "key": "gad_resp_rd",
+    "value": "28.9"
+  },
+  {
+    "source": "Table 2",
+    "key": "gad_resp_rd_ci",
+    "value": "[19.6, 37.6]"
+  },
+  {
+    "source": "Table 2",
+    "key": "gad_remit_ctrl",
+    "value": "2.5\\% (5/197)"
+  },
+  {
+    "source": "Table 2",
+    "key": "gad_remit_trt",
+    "value": "15.5\\% (30/193)"
+  },
+  {
+    "source": "Table 2",
+    "key": "gad_remit_rd",
+    "value": "13.0"
+  },
+  {
+    "source": "Table 2",
+    "key": "gad_remit_rd_ci",
+    "value": "[7.5, 19.0]"
+  },
+  {
+    "source": "Table 2",
+    "key": "phq_case_ctrl",
+    "value": "84.0\\% (168/200)"
+  },
+  {
+    "source": "Table 2",
+    "key": "phq_case_trt",
+    "value": "86.0\\% (172/200)"
+  },
+  {
+    "source": "Table 2",
+    "key": "phq_case_rd",
+    "value": "2.0"
+  },
+  {
+    "source": "Table 2",
+    "key": "phq_case_rd_ci",
+    "value": "[-5.1, 9.1]"
+  },
+  {
+    "source": "Table 2",
+    "key": "phq_sub10_ctrl",
+    "value": "22.3\\% (37/166)"
+  },
+  {
+    "source": "Table 2",
+    "key": "phq_sub10_trt",
+    "value": "44.2\\% (73/165)"
+  },
+  {
+    "source": "Table 2",
+    "key": "phq_sub10_rd",
+    "value": "22.0"
+  },
+  {
+    "source": "Table 2",
+    "key": "phq_sub10_rd_ci",
+    "value": "[11.9, 31.5]"
+  },
+  {
+    "source": "Table 2",
+    "key": "phq_resp_ctrl",
+    "value": "12.7\\% (21/166)"
+  },
+  {
+    "source": "Table 2",
+    "key": "phq_resp_trt",
+    "value": "30.9\\% (51/165)"
+  },
+  {
+    "source": "Table 2",
+    "key": "phq_resp_rd",
+    "value": "18.3"
+  },
+  {
+    "source": "Table 2",
+    "key": "phq_resp_rd_ci",
+    "value": "[9.4, 26.8]"
+  },
+  {
+    "source": "Table 2",
+    "key": "phq_remit_ctrl",
+    "value": "2.4\\% (4/166)"
+  },
+  {
+    "source": "Table 2",
+    "key": "phq_remit_trt",
+    "value": "13.3\\% (22/165)"
+  },
+  {
+    "source": "Table 2",
+    "key": "phq_remit_rd",
+    "value": "10.9"
+  },
+  {
+    "source": "Table 2",
+    "key": "phq_remit_rd_ci",
+    "value": "[5.3, 17.1]"
+  },
+  {
+    "source": "Table A1",
+    "key": "n_treat",
+    "value": "200"
+  },
+  {
+    "source": "Table A1",
+    "key": "n_control",
+    "value": "200"
+  },
+  {
+    "source": "Table A1",
+    "key": "p_n",
+    "value": "-"
+  },
+  {
+    "source": "Table A1",
+    "key": "age_treat",
+    "value": "39.0"
+  },
+  {
+    "source": "Table A1",
+    "key": "age_control",
+    "value": "39.2"
+  },
+  {
+    "source": "Table A1",
+    "key": "p_age",
+    "value": "0.9"
+  },
+  {
+    "source": "Table A1",
+    "key": "female_treat",
+    "value": "76"
+  },
+  {
+    "source": "Table A1",
+    "key": "female_control",
+    "value": "81"
+  },
+  {
+    "source": "Table A1",
+    "key": "p_female",
+    "value": "0.27"
+  },
+  {
+    "source": "Table A1",
+    "key": "income_treat",
+    "value": "40,429"
+  },
+  {
+    "source": "Table A1",
+    "key": "income_control",
+    "value": "47,242"
+  },
+  {
+    "source": "Table A1",
+    "key": "p_income",
+    "value": "0.06"
+  },
+  {
+    "source": "Table A1",
+    "key": "employed_treat",
+    "value": "43"
+  },
+  {
+    "source": "Table A1",
+    "key": "employed_control",
+    "value": "50"
+  },
+  {
+    "source": "Table A1",
+    "key": "p_employed",
+    "value": "0.16"
+  },
+  {
+    "source": "Table A1",
+    "key": "gad7_treat",
+    "value": "15.9"
+  },
+  {
+    "source": "Table A1",
+    "key": "gad7_control",
+    "value": "16.1"
+  },
+  {
+    "source": "Table A1",
+    "key": "p_gad7",
+    "value": "0.34"
+  },
+  {
+    "source": "Table A1",
+    "key": "phq8_treat",
+    "value": "14.1"
+  },
+  {
+    "source": "Table A1",
+    "key": "phq8_control",
+    "value": "14.5"
+  },
+  {
+    "source": "Table A1",
+    "key": "p_phq8",
+    "value": "0.35"
+  },
+  {
+    "source": "Table A1",
+    "key": "lonely_treat",
+    "value": "7.6"
+  },
+  {
+    "source": "Table A1",
+    "key": "lonely_control",
+    "value": "7.5"
+  },
+  {
+    "source": "Table A1",
+    "key": "p_lonely",
+    "value": "0.5"
+  },
+  {
+    "source": "Table A1",
+    "key": "meds_treat",
+    "value": "78"
+  },
+  {
+    "source": "Table A1",
+    "key": "meds_control",
+    "value": "67"
+  },
+  {
+    "source": "Table A1",
+    "key": "p_meds",
+    "value": "0.02"
+  },
+  {
+    "source": "Table A1",
+    "key": "therapy_treat",
+    "value": "76"
+  },
+  {
+    "source": "Table A1",
+    "key": "therapy_control",
+    "value": "74"
+  },
+  {
+    "source": "Table A1",
+    "key": "p_therapy",
+    "value": "0.64"
+  },
+  {
+    "source": "Table 1",
+    "key": "table_baseline_ctrl_n",
+    "value": "200",
+    "reference": "Sample-size row in the original table"
+  },
+  {
+    "source": "Table 1",
+    "key": "table_baseline_treat_n",
+    "value": "200",
+    "reference": "Sample-size row in the original table"
+  },
+  {
+    "source": "Table 1",
+    "key": "table_followup_ctrl_n",
+    "value": "197",
+    "reference": "Sample-size row in the original table"
+  },
+  {
+    "source": "Table 1",
+    "key": "table_followup_treat_n",
+    "value": "193",
+    "reference": "Sample-size row in the original table"
+  },
+  {
+    "source": "Table 1",
+    "key": "table_followup_ctrl_n",
+    "value": "197",
+    "reference": "Sample-size row in the original table"
+  },
+  {
+    "source": "Table 1",
+    "key": "table_followup_treat_n",
+    "value": "193",
+    "reference": "Sample-size row in the original table"
+  },
+  {
+    "source": "Table 1",
+    "key": "table_ancova_n",
+    "value": "390",
+    "reference": "Sample-size row in the original table"
+  },
+  {
+    "source": "Table 1",
+    "key": "table_ancova_n",
+    "value": "390",
+    "reference": "Sample-size row in the original table"
+  }
+]

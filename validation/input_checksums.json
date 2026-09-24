@@ -1,0 +1,21 @@
+{
+  "data/data_dictionary.csv": "73e6192441d6209c0dfa1087cc9b66ce1af4ba6b04357eaafe692fea89af7264",
+  "data/illustrations/ad.png": "521420c35a7e1a8308cbc54361846b2d19f856d6761e860ab301f800f7d192b3",
+  "data/illustrations/personalize_noblack.png": "70607a3f8afdf727dfcb694994223cd10a3313ebb524a748f32cb214a37a5642",
+  "data/illustrations/privacy_noblack.PNG": "ceec9ac72d321805fe1577b7ddec51a3c45cfb424e8e96a2efccae784d161743",
+  "data/illustrations/sonia_architecture_corrected.png": "175be02ef6085d31c4281e8a5bb450cdf5d2b269877cf8e1d934e21b3d3a4b0a",
+  "data/participants.csv": "9f088d8fbc4f48ac4d2f2b2d9cc1b77db142329ae50943895cc3b5c2f5ecca78",
+  "data/published_benchmarks.csv": "63ff1199c3652311b64310882ace66166d8f91ac8ac2c8a80483b239bce23644",
+  "data/safety_concern_categories.csv": "210289455337638d4fc11e9317dfbd5ad58c4abf125fd1a7ca767cfcd86b1fe4",
+  "data/screening.csv": "925c1f8a675ca137dcfe9fd6eb82617d07646258829932b6e2e79fe18c44b5db",
+  "data/study_comparison.tex": "024a151046940704eb21a624cee6b5bc49861414ca7103fba4ba63ea20cdc9a8",
+  "src/replication/reporting/templates/balance_table_rct.tex": "afc50a8a2a58dff0b0b5f5da5648032ff32c616fc04acc8c160fc6e6b3e43a71",
+  "src/replication/reporting/templates/clinical_outcomes_main.tex": "36a8788d479fa078242b49271c337a677c12c610d022b3674cfcdfacf890b80c",
+  "src/replication/reporting/templates/main_results_psych.tex": "7aa6dbc2e3dafb3c399ed1cd26cdfe3cdbfa5d9b67b481a13e41c45445bbbcf3",
+  "validation/effect_robustness_wave_4.tex": "f11bce1743958e5c8b138e88217c1e60184d8bd5fdd76f927e943afa34281deb",
+  "validation/expected_coefficients.csv": "50dbe6049f6f047de431c6c23e317b4de165a50ca8039802fbfa6804d6af5466",
+  "validation/expected_screening.json": "ca2276890fd2f1f254f0bdcc054e594192ade0cc440fd57bf4b9c78c0802c8e8",
+  "validation/expected_values.json": "40b06b711ade9e8a567edb1939da9677605fa12f6a74c6dec55633302ba8989f",
+  "validation/input_provenance.json": "ae9309e7de614b1df3c48e90f01218f2f7b8702340be5f4bb6dc5b08fb5c48cc",
+  "validation/source_verification.json": "9dd004182d1dfd0a835c5169ea31379c35cc9a42165225951ea08464c05ffab9"
+}

@@ -1,0 +1,104 @@
+{
+  "screened": 10490,
+  "phone_invited": 423,
+  "phone_scheduled": 893,
+  "exclusions": {
+    "Age < 18": 39,
+    "High AI Privacy Concern": 2809,
+    "Low AI Comfort": 2556,
+    "Currently in Therapy": 2184,
+    "GAD-7 Not in 13–20": 6812,
+    "Not iPhone User": 83,
+    "Not US Resident": 18
+  },
+  "gad7_distribution": [
+    {
+      "score": 0,
+      "count": 193
+    },
+    {
+      "score": 1,
+      "count": 100
+    },
+    {
+      "score": 2,
+      "count": 133
+    },
+    {
+      "score": 3,
+      "count": 224
+    },
+    {
+      "score": 4,
+      "count": 303
+    },
+    {
+      "score": 5,
+      "count": 405
+    },
+    {
+      "score": 6,
+      "count": 547
+    },
+    {
+      "score": 7,
+      "count": 1074
+    },
+    {
+      "score": 8,
+      "count": 550
+    },
+    {
+      "score": 9,
+      "count": 642
+    },
+    {
+      "score": 10,
+      "count": 575
+    },
+    {
+      "score": 11,
+      "count": 633
+    },
+    {
+      "score": 12,
+      "count": 554
+    },
+    {
+      "score": 13,
+      "count": 541
+    },
+    {
+      "score": 14,
+      "count": 632
+    },
+    {
+      "score": 15,
+      "count": 526
+    },
+    {
+      "score": 16,
+      "count": 421
+    },
+    {
+      "score": 17,
+      "count": 468
+    },
+    {
+      "score": 18,
+      "count": 401
+    },
+    {
+      "score": 19,
+      "count": 392
+    },
+    {
+      "score": 20,
+      "count": 297
+    },
+    {
+      "score": 21,
+      "count": 879
+    }
+  ]
+}

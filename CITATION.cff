@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the associated study when using this replication package."
+title: "Replication package: Short-term evaluation of a voice-based generative AI emotional support companion: a randomised controlled trial"
+type: dataset
+version: 1.0.0
+authors:
+  - family-names: Roever
+    given-names: Nicolas
+  - family-names: Wolf
+    given-names: Lukas
+  - family-names: Forman-Hoffman
+    given-names: Valerie
+  - family-names: Areán
+    given-names: Patricia
+  - family-names: Feld
+    given-names: Bennet
+license: CC-BY-4.0

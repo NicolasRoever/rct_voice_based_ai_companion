@@ -1,0 +1,37 @@
+{
+  "analysis_fields_equal_original": {
+    "gad7_score_w1": true,
+    "gad7_score_w4": true,
+    "gad7_score_std_w1": true,
+    "gad7_score_std_w4": true,
+    "phq8_score_w2": true,
+    "phq8_score_w4": true,
+    "phq8_score_std_w2": true,
+    "phq8_score_std_w4": true,
+    "ucla_loneliness_w2": true,
+    "income_w2": true,
+    "wtp_human_therapy_rel_w2": true,
+    "efficacy_human_therapy_w2": true,
+    "sonia_treatment": true,
+    "sonia_safe_w4": true,
+    "therapy_history_w1": true,
+    "medication_w2": true,
+    "employment_w2": true,
+    "gender_w1": true,
+    "research_arm": true
+  },
+  "all_four_cached_main_models_match": true,
+  "manuscript_sha256": "cd6a8d9ebf9a0395aa3dedb1c3599d393dc9f4a31b12bcc0ba5788faec290c62",
+  "public_sample_membership_matches_source": true,
+  "public_weekly_usage_matches_source": {
+    "number_sessions_days_-1_6": true,
+    "number_sessions_days_7_13": true,
+    "duration_days_-1_6": true,
+    "duration_days_7_13": true,
+    "webapp_sessions_days_-1_6": true,
+    "webapp_sessions_days_7_13": true,
+    "webapp_seconds_days_-1_6": true,
+    "webapp_seconds_days_7_13": true
+  },
+  "screening_summary_matches_source": true
+}
