@@ -4,10 +4,10 @@ This repository contains the anonymzed raw data and code to reproduce the analys
 
 If you have any questions, contact the corresponding author: 
 
-> Nicolas Roever, M.Sc. 
-> University of Cologne, Germany
-> Email: nicolas.roever@wiso.uni-koeln.de
-> WWW: [https://nicolasroever.com](https://nicolasroever.com)
+> Nicolas Roever, M.Sc. //
+> University of Cologne, Germany //
+> Email: nicolas.roever@wiso.uni-koeln.de //
+> WWW: [https://nicolasroever.com](https://nicolasroever.com) //
 
 ## Run
 
@@ -77,14 +77,8 @@ records their hashes; the pipeline verifies them before accepting the results.
   scores are not imputed. PHQ-8 improvement outcomes require baseline ≥10.
 - Usage columns give days relative to each UTC randomization date. Weekly
   windows are days −1–6 and 7–13; nonusers count as zero. SDs use `ddof=1`.
-  Exported safety counts use the original `floor(elapsed days) <= 14` filter.
 - Power calculations are prospective planning calculations; the ANCOVA power
   uses the stated baseline-correlation approximation.
-
-The pipeline checks 158 original manuscript values, eight table sample-size
-entries, robustness-table numbers and stars, and the four original main models.
-It also checks input hashes and the values written into the manuscript and tables.
-Original reported values are validation references, never analysis inputs.
 
 ## Reuse
 
