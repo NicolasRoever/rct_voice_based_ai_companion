@@ -1,8 +1,13 @@
-# Sonia trial: replication package
+# Replication Package for: A randomised controlled trial of a voice-based generative AI emotional support companion
 
-Reproduces the figures, tables and key numbers from the medicine revision.
-The full manuscript is not included. Automated safety-event and escalation
-counts are excluded at the author's request.
+This repository contains the anonymzed raw data and code to reproduce the analyses presented in the paper.
+
+If you have any questions, contact the corresponding author: 
+
+> Nicolas Roever, M.Sc. 
+> University of Cologne, Germany
+> Email: nicolas.roever@wiso.uni-koeln.de
+> WWW: [https://nicolasroever.com](https://nicolasroever.com)
 
 ## Run
 
@@ -18,65 +23,71 @@ pixi run test
 
 | Folder | Contents |
 |---|---|
-| `data/` | Trial and screening data, survey concern categories, benchmarks and supplied exhibits |
-| `src/replication/` | Analysis functions, small pytask files and table templates |
-| `validation/` | Reported numerical references and input provenance |
-| `tests/` | Scoring, denominator, time-window and data checks |
-| `bld/figures/` | Seven generated PDFs and supplied illustrations |
-| `bld/tables/` | Four calculated LaTeX tables and the supplied study-comparison table |
-| `bld/results/` | Key numbers, detailed estimates and validation results |
-| `bld/clean_data/` | Scored analysis data |
+| `data/` | Trial data, screening responses and aggregate safety counts, benchmarks and dictionary |
+| `src/replication/` | Analysis functions and small `task_*.py` files, grouped by topic |
+| `validation/` | Original reported numbers and input provenance |
+| `tests/` | Scoring, denominator, time-window and public-data checks |
+| `bld/` | Rebuilt data, results, tables, figures and manuscript |
 
-Paths are defined in `src/replication/config.py`. Functions take inputs and
-return results; tasks read and save files. Delete `bld/` and rerun to rebuild.
+All paths are defined in `src/replication/config.py`. Functions take their
+inputs as arguments and return results. Tasks read and save files.
+`bld/` can be deleted and rebuilt with `pixi run replicate`.
 
 ## Find a result
 
-| Exhibit | Output under `bld/` |
+| Manuscript item | Output under `bld/` |
 |---|---|
-| Table 1: symptom outcomes | `tables/main_results_psych.tex` |
-| Table 2: categorical outcomes | `tables/clinical_outcomes_main.tex` |
-| Table A1: baseline characteristics | `tables/balance_table_rct.tex` |
-| Table A2: robustness | `tables/effect_robustness_wave_4.tex` |
-| Table A3: study comparison | `tables/study_comparison.tex` |
-| Figure 1: participant flow | `figures/consort_diagram_w124.pdf` |
-| Figures A1–A3: supplied illustrations | `figures/*.png`, `figures/*.PNG` |
-| Figures A4–A5: symptom changes | `figures/*baseline_vs_w4*.pdf` |
-| Figure A6: published benchmarks | `figures/metaanalysis_digital_*.pdf` |
-| Key numbers | `results/key_numbers.csv`, `results/key_numbers.json` |
-| Replication checks | `results/validation.json`, `results/key_numbers_comparison.csv` |
+| Table 1: symptom outcomes | `manuscript/tables_python/main_results_psych.tex` |
+| Table 2: categorical outcomes | `manuscript/tables_python/clinical_outcomes_main.tex` |
+| Table A1: baseline characteristics | `manuscript/tables_python/balance_table_rct.tex` |
+| Table A2: robustness | `manuscript/tables_python/effect_robustness_wave_4.tex` |
+| Figure 1: participant flow | `manuscript/figures_python/consort_diagram_w124.pdf` |
+| Figures A4–A5: symptom changes | `manuscript/figures_python/*baseline_vs_w4*.pdf` |
+| Figure A6: published benchmarks | `manuscript/figures_python/metaanalysis_digital_*.pdf` |
+| Engagement, safety, power, text values | `results/*.json` and `results/*.csv` |
+| Replication checks | `results/validation.json`, `results/manuscript_comparison.csv` |
 
-Illustrations and the study-comparison table are supplied inputs. Published
-benchmark estimates are fixed; this trial's estimates are recalculated.
-Tables are LaTeX fragments for inclusion in a document.
+Architecture, advertisement and application screenshots (Figures A1–A3),
+study descriptions (Table A3), protocol, and research-team adjudications
+are supplied documentary material. Published study estimates are fixed
+inputs; this trial's benchmark estimates are calculated from its regressions.
 
-## Data and methods
+## Data and analysis conventions
 
-The original project's `task_anonymize_medicine_data` creates three CSV files:
-`participants.csv`, `screening.csv` and `safety_concern_categories.csv`.
-They are copied here unchanged. The pipeline verifies their hashes against
-`validation/input_provenance.json`. See `data/data_dictionary.csv` for fields.
+The original project creates these data in `task_anonymize_medicine_data`
+(`src/sonia_project/waitlist_trial/overall_analysis/task_create_public_data.py`).
+Its four CSV outputs are copied here unchanged. `validation/input_provenance.json`
+records their hashes; the pipeline verifies them before accepting the results.
 
-- The trial file contains 400 randomized participants with release-only IDs.
-  The separate screening file retains all 10,490 respondents without IDs or dates.
-  The first-400 selection is verified before export.
-- Survey safety concerns are coded into unlinked categories. Transcripts,
-  free-text responses, participant dates and crisis-event records are excluded.
+
+- `participants.csv` has the 400 randomized participants, with new IDs and
+  shuffled rows. The first-400 selection was verified before export; original
+  dates, source IDs and survey timing fields are not distributed.
+- `screening.csv` retains all 10,490 screener respondents. Rows are shuffled,
+  with no IDs or dates. It supplies the full GAD-7 reference distribution and
+  the CONSORT screening counts.
+- Safety events and manually coded concerns are aggregate, unlinked inputs.
+  No participant dates, transcripts, free-text responses or linked crisis
+  records are included. The retained survey and demographic data are real.
 - Wave 1 is screening, wave 2 is baseline, and wave 4 is the two-week follow-up.
-  Survey selection and deduplication take place in the original project.
-- ANCOVA uses HC3 standard errors. GAD-7 standardization uses all screeners;
-  PHQ-8 uses the 400 randomized participants. Missing follow-ups are not imputed.
-  PHQ-8 improvement outcomes require baseline ≥10.
-- Usage windows are days −1–6 and 7–13 relative to each UTC randomization date;
-  nonusers count as zero. SDs use `ddof=1`.
-- Power calculations use the stated prospective assumptions; ANCOVA power
-  uses a baseline-correlation approximation.
+  The input contains selected valid responses, including three UCLA-3 items.
+  Private survey deduplication and safety adjudication precede this package.
+- ANCOVA uses HC3 standard errors. GAD-7 standardization uses the full screener
+  responses; PHQ-8 uses the 400 randomized participants. Missing follow-up
+  scores are not imputed. PHQ-8 improvement outcomes require baseline ≥10.
+- Usage columns give days relative to each UTC randomization date. Weekly
+  windows are days −1–6 and 7–13; nonusers count as zero. SDs use `ddof=1`.
+  Exported safety counts use the original `floor(elapsed days) <= 14` filter.
+- Power calculations are prospective planning calculations; the ANCOVA power
+  uses the stated baseline-correlation approximation.
 
-Validation checks 154 retained reported values, eight table sample-size entries,
-robustness-table numbers and stars, and all coefficients of the four main models.
-Reference values are used only for validation.
+The pipeline checks 158 original manuscript values, eight table sample-size
+entries, robustness-table numbers and stars, and the four original main models.
+It also checks input hashes and the values written into the manuscript and tables.
+Original reported values are validation references, never analysis inputs.
 
 ## Reuse
 
-Code: MIT (`LICENSE`). Study data and dictionary: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (`LICENSE_DATA`).
-Use `CITATION.cff` for attribution. Supplied third-party material retains its own rights.
+The code retains the source repository's MIT notice in `LICENSE`.
+Study data and their dictionary are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); see `LICENSE_DATA`.
+Use `CITATION.cff` to cite this package. The manuscript and third-party material retain their existing rights.
